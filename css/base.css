@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: #ffffff;
+    display: inline-block;
+}
+/* 固定960px宽度的区域 */
+.head-wrap,.mainNav-center,.main{
+max-width: 960px;
+}
+.head-wrap,.main{
+    margin: auto;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}

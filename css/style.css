@@ -1,0 +1,136 @@
+/* 头部 */
+.head {
+    width: 100%;
+    height: 80px;
+    background: #333;
+}
+
+.head .head-wrap {
+    height: 80px;
+}
+
+/* 头部 双飞翼布局设置 */
+.head .centre,
+.head-wrap-logo,
+.head-wrap-nav {
+    float: left;
+}
+
+.head .centre {
+    width: 100%;
+    height: 80px;
+}
+
+.head .centre .centre-body {
+    margin: 0 200px 0 100px;
+}
+
+.head .head-wrap-logo {
+    width: 100px;
+    height: 80px;
+    margin-left: -100%;
+}
+
+.head .head-wrap-nav {
+    width: 200px;
+    height: 80px;
+    margin-left: -200px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head .head-wrap-logo a {
+    text-decoration: none;
+    font-size: 2em;
+    line-height: 80px;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 300px;
+    background: #6b3;
+    position: relative;
+}
+
+.banner .banner-wrap {
+    width: 134px;
+    height: 52px;
+    position: absolute;
+    right: 181px;
+    bottom: 8px;
+    background: #6b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.banner .banner-wrap a{
+    width: 30px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #66914d;
+    background: #b2dd99;
+    border: 1px solid #335e1a;
+    text-decoration: none;
+    box-shadow: -2px -2px  black;
+}
+.banner .banner-wrap .active{
+    height: 52px;
+    padding-top: 16px;
+    background: white;
+}
+/* nav区域 */
+.mainNav{
+    width: 100%;
+    height: 70px;
+    padding-top: 17px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mainNav .mainNav-center{
+    padding-top: 2px;
+    margin: auto;
+}
+.mainNav .mainNav-center div{
+    width: 116px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+.mainNav .mainNav-center .active{
+    background: #ffffff;
+    border-bottom: none;
+}
+/* content部分,使用flex布局 */
+.main{
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.main .main-content{
+    margin: 10px;
+    text-align: center;
+border: 1px solid #ccc;
+padding: 80px;
+flex: 1;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 120px;
+    background: #666;
+    text-align: center;
+    color: #fff;
+    padding-top: 18px;
+    margin-top: 18px;
+}
